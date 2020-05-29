@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+.header {
+  box-shadow: 0 4px 4px $GRAY_SHADOW;
+  width: calc(100% - (2 * #{$MARGIN}));
+  height: $HEADER_HEIGHT;
+  padding: 0 $MARGIN;
+  display: flex;
+
+  &__logo {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    font-size: 24px;
+    align-self: center;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+.classes-page {
+  padding: 0 340px 0 $MARGIN;
+
+  @media screen and (max-width: #{$TABLET}) {
+    padding: 0 40px;
+  }
+
+  &__cards {
+    margin-top: 60px;
+  }
+}
