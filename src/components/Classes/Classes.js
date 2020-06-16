@@ -1,7 +1,6 @@
 import React from "react";
 
 import ItemCard from "../ItemCard";
-import Search from "../Search";
 
 import "./Classes.scss";
 
@@ -12,7 +11,6 @@ const Classes = ({ classList }) => {
 
   return (
     <section className="classes-page">
-      <Search />
       <main className="classes-page__cards">
         {classList?.map(spreadIntoCards)}
       </main>
