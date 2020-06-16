@@ -1,3 +1,3 @@
-import * as api from "./apiClient";
+import * as achiApi from './achiApiClient'
 
-export default api;
+export default achiApi;
